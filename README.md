@@ -5,11 +5,14 @@ Método resposanvel por mudar a aba atual do navegador recebe um int como parâm
 
 > <span style="color: blue;">**Parâmetro**</span>: <code>**int**</code> indiceAba
 
+Ex:
+```java
+ComandosBasicos comBasico = new ComandosBasicos(driver)
+comBasico.mudarAba(0);
+```
+
 undefined
-Caso seja informado o indice uma aba inexistente como parâmetro será lançada a seguinte <code>**Exception**</code>:
-
-Este Indice de Aba não existe! Use um valor Valido!
-
+undefined
 Método não tem retorno.
 
 > <span style="color: green;">**Return**</span>: <code>**void**</code>
@@ -21,11 +24,13 @@ Método resposanvel por mudar a aba atual do navegador recebe um int como parâm
 
 > <span style="color: blue;">**Parâmetro**</span>: <code>**int**</code> indiceAba
 
+Ex:
+```java
+ComandosBasicos comBasico = new ComandosBasicos(driver);\n comBasico.mudarAba(0);
+```
+
 undefined
-Caso seja informado o indice uma aba inexistente como parâmetro será lançada a seguinte <code>**Exception**</code>:
-
-Este Indice de Aba não existe! Use um valor Valido!
-
+undefined
 Método não tem retorno.
 
 > <span style="color: green;">**Return**</span>: <code>**void**</code>
